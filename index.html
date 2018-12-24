@@ -9,24 +9,30 @@
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand fixed-top" style="background-color: #000000;">
-        <div class="container-fluid"><a class="navbar-brand d-sm-flex justify-content-sm-center align-items-sm-center align-self-md-center" href="#"><img src="assets/img/logo.svg" style="width: 500;height: 35px;"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav text-capitalize text-center d-none d-sm-flex flex-grow-1 align-self-end justify-content-sm-center align-items-sm-center align-self-sm-end justify-content-xl-end align-items-xl-center" style="padding: 3px;margin: 10px;width: 300px;height: 54px;">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color: rgba(121,70,205,0.9);opacity: 1;filter: hue-rotate(0deg);padding: 5px;width: 150px;height: 34px;"><strong>MAP &amp; HISTORY</strong></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgba(231,87,217,0.7);"><strong>COLONY LAWS</strong></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgba(95,165,217,0.7);"><strong>COLONY STAFF</strong></a></li>
-                </ul>
-        </div>
-        </div>
+<body style="background-color: #000000;">
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color: rgba(255,255,255,0);padding: 5px;">
+            <div class="container"><a class="navbar-brand text-left d-flex flex-grow-1 flex-shrink-1 flex-fill justify-content-start align-items-center align-content-center align-self-center flex-nowrap" href="#"><img class="d-table d-sm-flex flex-grow-1 flex-shrink-1 justify-content-sm-center align-items-sm-center" src="assets/img/logo.svg" data-bs-hover-animate="flash"></a>
+                <button
+                    class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="padding: 10px;color: rgba(136,136,136,0);font-size: 15px;"><span class="sr-only" style="color: rgba(121,70,205,0.9);">Toggle navigation</span><span class="navbar-toggler-icon text-center" style="color: rgba(121,70,205,0.9);font-family: Aldrich, sans-serif;background-color: rgba(121,70,205,0.9);"></span></button>
+                    <div
+                        class="collapse navbar-collapse text-right d-md-flex justify-content-md-end align-items-md-center" id="navcol-1" style="width: 100px;height: 50px;">
+                        <ul class="nav navbar-nav text-center ml-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="font-family: Aldrich, sans-serif;color: rgba(121,70,205,0.9);padding: 10px;">Map &amp; History</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family: Aldrich, sans-serif;color: rgba(231,87,217,0.7);padding: 10px;">Colony Laws</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link text-center" href="#" style="color: rgba(95,165,217,0.7);font-family: Aldrich, sans-serif;padding: 10px;">Colony Staff</a></li>
+                        </ul>
+            </div>
+    </div>
     </nav>
-    <div style="padding: 25px;background-color: #000000;">
-        <div class="container" style="padding: 75px 10px;">
+    </div>
+    <div style="padding: 25px 10px;background-color: #000000;">
+        <div class="container" style="padding: 50px 10px;">
             <div class="row">
                 <div class="col-12 col-md-12" style="padding: 0px;"><img src="assets/img/logo.svg"></div>
             </div>
@@ -77,6 +83,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
 </body>
 
 </html>
